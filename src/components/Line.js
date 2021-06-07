@@ -1,9 +1,10 @@
 import React from "react";
+import { StyledP } from "../styles.js";
 
 const Line = (props) => {
     return (
         <div>
-            <p>{props.line}</p>
+            <StyledP isCurrent={props.isCurrent}>{props.line}</StyledP>
         </div>
     )
 }

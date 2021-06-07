@@ -43,3 +43,8 @@ export const Btn = styled.button`
    cursor: pointer;
  }
 `;
+
+export const StyledP = styled.p`
+background: ${props => props.isCurrent && "#cee5d0"};
+color: ${props => props.isCurrent && "#000"};
+`;

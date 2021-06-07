@@ -14,15 +14,16 @@ function App() {
   const previousBtn = () => {
     return currentLine !== 0 && setCurrentLine(currentLine - 1);
   }
-  return (
 
+  const FullScript = script.map((line, index) => <Line key={line.id} line={line} isCurrent={currentLine === index} />);
+  return (
     <BodyDiv>
       <BoxDiv>
         <h1 className="title">SCRIPT</h1>
         <h3>Click the buttons to start reading the script.</h3>
         <Btn onClick={previousBtn}>Previous</Btn>
         <Btn onClick={nextBtn}>Next</Btn>
-        <Line line={script[currentLine]}></Line>
+        {FullScript}
       </BoxDiv>
     </BodyDiv>
   );
