@@ -2,10 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Demo version
-
-Here's a demo: https://ain12.github.io/scripts/
-
 ## Available Scripts
 
 In the project directory, you can run:
