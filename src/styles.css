@@ -1,0 +1,10 @@
+.title {
+    text-decoration-color: transparent;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    transition: text-decoration-color 0.3s ease-out;
+}
+
+.title:hover {
+    text-decoration-color: #FEFEDF;
+}
